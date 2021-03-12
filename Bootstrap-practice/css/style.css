@@ -1,3 +1,7 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
 .bg-violet {
   background-color: #733fc8;
 }
@@ -12,5 +16,39 @@
 
 .bg-background {
   background-color: #edf2f8;
+}
+
+.violet-text {
+  color: #a775f2;
+}
+
+.quotes {
+  background-image: url("../images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+}
+
+h5 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 11px;
+}
+
+.img-size {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #a775f2;
+}
+
+div p:first-of-type {
+  font-size: 20px;
+  line-height: 1.3rem !important;
+}
+
+div p:last-of-type {
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
