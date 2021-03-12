@@ -43,6 +43,10 @@ h6 {
   border: 2px solid #a775f2;
 }
 
+.border-gray {
+  border: 2px solid #a6aebc;
+}
+
 div p:first-of-type {
   font-size: 20px;
   line-height: 1.3rem !important;
@@ -50,5 +54,10 @@ div p:first-of-type {
 
 div p:last-of-type {
   font-size: 12px;
+}
+
+.txt-light-gray {
+  color: #9398a2;
+  font-size: 13px;
 }
 /*# sourceMappingURL=style.css.map */

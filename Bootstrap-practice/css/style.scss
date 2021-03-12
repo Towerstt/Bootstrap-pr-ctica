@@ -37,7 +37,10 @@ h6{
     width: 35px;
     height: 35px;
     border: 2px solid $violet-text;
-  
+}
+
+.border-gray{
+    border: 2px solid $gray-text;
 }
 
 div p:first-of-type{
@@ -46,4 +49,8 @@ div p:first-of-type{
 }
 div p:last-of-type{
     font-size: 12px;
+}
+.txt-light-gray{
+    color: $blue-light-text;
+    font-size: 13px;
 }
