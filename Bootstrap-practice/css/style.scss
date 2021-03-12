@@ -3,7 +3,6 @@ $gray-text: rgb(166, 174, 188);
 $blue-bold-text: rgb(75, 85, 105);
 $blue-light-text: rgb(147, 152, 162);
 
-
 body {
     font-family: "Barlow Semi Condensed", sans-serif;
 }
@@ -53,4 +52,21 @@ div p:last-of-type{
 .txt-light-gray{
     color: $blue-light-text;
     font-size: 13px;
+}
+/*BLACK CARD*/
+.opacity-70{
+    opacity: 70%;
+}
+.opacity-50{
+    opacity: 50%;
+}
+@media only Screen and (min-width:768px){
+    .quotes{
+        background-position-x: 445px;
+    }
+}
+@media only Screen and (min-width:1024px){
+    .quotes{
+        background-position-x: 387px;
+    }
 }
