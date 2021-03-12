@@ -63,7 +63,13 @@ div p:last-of-type {
 
 @media only Screen and (min-width: 768px) {
   .quotes {
-    background-position-x: 369px;
+    background-position-x: 445px;
+  }
+}
+
+@media only Screen and (min-width: 1024px) {
+  .quotes {
+    background-position-x: 387px;
   }
 }
 /*# sourceMappingURL=style.css.map */
