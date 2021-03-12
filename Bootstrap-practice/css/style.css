@@ -51,4 +51,19 @@ div p:first-of-type {
 div p:last-of-type {
   font-size: 12px;
 }
+
+/*BLACK CARD*/
+.opacity-70 {
+  opacity: 70%;
+}
+
+.opacity-50 {
+  opacity: 50%;
+}
+
+@media only Screen and (min-width: 768px) {
+  .quotes {
+    background-position-x: 369px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
